@@ -8,3 +8,4 @@ Will not provide you with more meaningful features, please don't waste your time
 
 
 MinGW编译器地址 : https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/
+gcc version 8.1.0 (x86_64-posix-sjlj-rev0, Built by MinGW-W64 project)
