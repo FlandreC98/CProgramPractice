@@ -109,5 +109,11 @@ printf ("ccccc : %p\n",ptr1+2);
 
 
 
+/*关于对齐
+#pragma pack(8)
+按照从前向后数，会将两个 short 与一个int 进行合并
+末尾如果不够，则自动补齐 ，并算入sizeof 中。
+*/
+
     return 0;
 }
