@@ -9,14 +9,8 @@
 int main()
 {
 
-// int p [4] ={0,1,2,3};
-// Creat_FibonacciSequence_Ptr(p, 4);
 
-
- struct Cube* ptr=ShowCube();
-  printf ("ccccc : %d\n",ptr->lenght); 
-  printf ("ccccc : %d\n",(ptr->width)); 
-//   JmpExample();
+TheCaseInStruct();
 
 return 0;
 }
