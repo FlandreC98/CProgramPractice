@@ -45,8 +45,8 @@ int TheCaseInStruct()
     printf ("=============== [struct Cube*]测试开始 ===============\n"); 
 
     struct Cube* ptrCube =ShowCube();
-    printf ("ptrCube 的首指针的值 : %d\n",*((int*)(ptrCube))); 
-    printf ("ptrCube 的首指针的地址 : %p\n",((int*)(ptrCube))); 
+    printf ("ptrCube 的首指针的值 : %d\n",*((short*)(ptrCube)));
+    printf("ptrCube 的首指针的地址 : %p\n", ((short *)(ptrCube)));
 
     printf ("struct Cube* -> lenght : %p\n", &ptrCube->lenght ); 
     printf ("struct Cube* -> width  : %p\n", &ptrCube->width ); 
