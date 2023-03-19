@@ -6,12 +6,16 @@
 #include "Pascal/Fibonacci.c"
 #include "Struct/StructC.c"
 
+
+#include "Class/Person.c"
+
+
 int main()
 {
 
-
-TheCaseInStruct();
-
+Person* p=new_Person("c","b");
+p->Hello();
+p->Display(p);
 return 0;
 }
 
